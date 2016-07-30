@@ -22,6 +22,8 @@ gem 'coffee-rails', '~> 4.1.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 gem 'sprockets', '~> 3.6', '>= 3.6.2'
+# Sprockets Rails integration
+gem 'sprockets-rails', '~> 3.1', '>= 3.1.1'
 # Use jquery as the JavaScript library
 gem 'jquery-rails', '~> 4.1', '>= 4.1.1'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
@@ -43,6 +45,12 @@ gem 'devise', '~> 4.2'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 # database
+
+# Translations for the devise gem
+gem 'devise-i18n'
+
+# Devise views with Bootstrap 3 and devise-i18n-views support
+gem 'devise-bootstrap-views'
 
 # http server
 gem 'puma', '~> 3.5', '>= 3.5.2'
